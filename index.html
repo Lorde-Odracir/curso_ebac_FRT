@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscrição</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario</h2>
+        <form>
+            <div class="campo">
+                <label for="nome">Nome completo:</label>
+                <input type="text" required id="nome">
+            </div>
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email"required id id="email">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" required id="telefone">
+            </div>
+            <div class="campo">
+                <label for="CPF">CPF:</label>
+                <input type="text" required id="CPF">
+            </div>
+            <div class="campo">
+                <label for="endereço">Endereço completo:</label>
+                <input type="text" required id="endereço">
+            </div>
+            <div class="campo">
+                <label for="CEP">CEP:</label>
+                <input type="text" required id="CEP">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
